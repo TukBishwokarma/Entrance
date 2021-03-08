@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/image/backgro.jpg");
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.from{
+    position: relative;
+    z-index: 1;
+    background: rgba(7, 40, 195, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.from input{
+    font-family: "roboto",sans-serif;
+    outline: 1;
+    border: 0;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box ;
+    background: #f2f2f2;
+}
+.from button{
+    font-family: "roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    color: #ffff;
+    cursor: pointer;
+
+}
+.from button:hover,.from button :active{
+    background: #43a047;
+}
+.from.message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+
+}
+.from.message a{
+    color: #4caf50;
+    text-decoration: none;
+}
+.from .register-from{
+    display: none;
+}
+
