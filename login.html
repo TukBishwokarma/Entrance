@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Entarnce</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript " src="javascript.js"></script>
+</head>
+<body>
+        <div class="login-page">
+            <div class="from">
+                <form class="register-from" action="">
+                    <input type="text " placeholder="Username">
+                    <input type="password " placeholder="Password">
+                    <input type="email " placeholder="Email Id">
+                    <button>Create</button>
+                  <p class="message"> Already Registered? <a href="#">Login</a>  
+                     </p>
+                </form>
+                <form class="login-from"  action="">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Enter your password">
+                    <button> Login</button>
+                    <p class="message"> Not Registered <a href="#">Register</a></p>
+                </form>
+           <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+           <script>
+               $('.message a' ).click(function()
+               {
+                //    $('.from').animate({ height: "toggle",opacity : "toggle"}, "slow");
+                   $('.from .register-from').css({display: "block"});
+                   $('.from .login-from').css({display: "none"});
+               });
+            
+           </script>
+
+</body>
+</html>
